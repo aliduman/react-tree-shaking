@@ -1,2 +1,9 @@
-# react-tree-shaking
-Intern case project
+# ShakingTree
+This is my ShakingTree
+
+## Setup
+`yarn install`
+
+`yarn run dev`
+
+`yarn run build`
