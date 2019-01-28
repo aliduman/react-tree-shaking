@@ -1,8 +1,4 @@
 {
-  "name": "shaking tree",
-  "version": "1.0.0",
-  "description": "intern case project",
-  "main": "index.js",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
