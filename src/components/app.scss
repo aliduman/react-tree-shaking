@@ -1,0 +1,19 @@
+.container{
+  position: relative;
+  margin: auto;
+  max-width: 1200px;
+  h1{
+    text-align: center;
+  }
+  button{
+    position: absolute;
+    right: 50%;
+    background-color: #00c04c;
+    border: 1px solid #00c04c;
+    font-size: 21px;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}

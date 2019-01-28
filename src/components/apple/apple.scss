@@ -1,0 +1,65 @@
+.apple {
+  position: absolute;
+  top: 30%;
+  left: 140px;
+  opacity: 0;
+  z-index: 2;
+
+  &.down {
+    opacity: 1;
+    &:nth-child(1){
+      top: 86%;
+      left: 148px;
+      -webkit-transition: all 3s;
+      -moz-transition: all 3s;
+      -ms-transition: all 3s;
+      -o-transition: all 3s;
+      transition: all 3s;
+    }
+    &:nth-child(2){
+      top: 87%;
+      left: 165px;
+      -webkit-transition: all 5s;
+      -moz-transition: all 5s;
+      -ms-transition: all 5s;
+      -o-transition: all 5s;
+      transition: all 5s;
+    }
+    &:nth-child(3){
+      top: 89%;
+      left: 270px;
+      -webkit-transition: all 7s;
+      -moz-transition: all 7s;
+      -ms-transition: all 7s;
+      -o-transition: all 7s;
+      transition: all 7s;
+    }
+  }
+  &.done{
+    -webkit-transition: all 0s;
+    -moz-transition: all 0s;
+    -ms-transition: all 0s;
+    -o-transition: all 0s;
+    transition: all 0s;
+    &:nth-child(1){
+      top: 76%;
+      left: 48px;
+      opacity: 1;
+    }
+    &:nth-child(2){
+      top: 77%;
+      left: 50px;
+      opacity: 1;
+    }
+    &:nth-child(3){
+      top: 79%;
+      left: 70px;
+      opacity: 1;
+    }
+  }
+}
+.basket-front {
+  position: absolute;
+  top: 78%;
+  z-index: 3;
+}
