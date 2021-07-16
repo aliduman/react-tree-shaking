@@ -27,9 +27,6 @@ class App extends React.Component {
                 alert('Başla butonuna tıklayın...');
             }
         };
-
-
-
     }
 
     //Bu function Elmaların 3 saniye sonra düşmelerini sağlıyor.
@@ -46,6 +43,10 @@ class App extends React.Component {
                 }
             }, 1000);
         }, 3000)
+    }
+
+    end(){
+        this.setState({startState: false, appleCount: 0, shakingState:false});
     }
 
     start() {
