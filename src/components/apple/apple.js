@@ -7,7 +7,7 @@ class Apple extends React.Component {
     constructor(props) {
         super(props);
 
-        this.appleArr = [apple, apple, apple];
+        this.appleArr = [apple, apple, apple, apple];
         this.state = {
             downAppleState: false
         };
